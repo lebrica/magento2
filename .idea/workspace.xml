@@ -1,7 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3dcd272-0235-4a16-95d1-29b2508eb025" name="Default Changelist" comment="" />
+    <list default="true" id="e3dcd272-0235-4a16-95d1-29b2508eb025" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/code/Dev/Block/Controller/Adminhtml/Html/Save.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Dev/Block/Controller/Adminhtml/Html/FormAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Dev/Block/Controller/Adminhtml/Html/FormAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Dev/Block/Ui/Component/Listing/Column/ContentActions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Dev/Block/Ui/Component/Listing/Column/ContentActions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Dev/Block/view/adminhtml/ui_component/block_content_form.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Dev/Block/view/adminhtml/ui_component/block_content_form.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/code/Dev/Block/view/adminhtml/ui_component/block_grid_listing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/code/Dev/Block/view/adminhtml/ui_component/block_grid_listing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---a7d_BLOCK_32BF8D9E77B2800EA5013BD716EDD6BE3D224F32" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---a7d_BLOCK_32BF8D9E77B2800EA5013BD716EDD6BE3D224F32" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---a7d_DB_PDO_MYSQL_DDL_ADMIN_USER_SESSION_1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---a7d_DB_PDO_MYSQL_DDL_ADMIN_USER_SESSION_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---a7d_EXTENSION_ATTRIBUTES_CONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---a7d_EXTENSION_ATTRIBUTES_CONFIG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---a7d_LAYOUT_ADMINHTML_STORE1_2CF9AB1B1723BEDC1DCD665A812B00335_PAGE_LAYOUT_MERGED" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---a7d_LAYOUT_ADMINHTML_STORE1_2CF9AB1B1723BEDC1DCD665A812B00335_PAGE_LAYOUT_MERGED" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_BACKEND_MENU_OBJECT" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_BACKEND_MENU_OBJECT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_LAYOUT_ADMINHTML_STORE1_29FDF23B55D7EEEF84157B5E53C84C3EA_PAGE_LAYOUT_MERGED" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_LAYOUT_ADMINHTML_STORE1_29FDF23B55D7EEEF84157B5E53C84C3EA_PAGE_LAYOUT_MERGED" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_LAYOUT_ADMINHTML_STORE1_2PAGE_LAYOUT" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_LAYOUT_ADMINHTML_STORE1_2PAGE_LAYOUT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_STRUCTURE_LAYOUT_ADMINHTML_STORE1_2D41D8CD98F00B204E9800998ECF8427E" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_STRUCTURE_LAYOUT_ADMINHTML_STORE1_2D41D8CD98F00B204E9800998ECF8427E" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_SYSTEM_STORES_0" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_SYSTEM_STORES_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_TRANSLATE_EN_US_ADMINHTML_ADMIN_MAGENTO_BACKEND_DEV_BLOCK" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---a7d_TRANSLATE_EN_US_ADMINHTML_ADMIN_MAGENTO_BACKEND_DEV_BLOCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---a7d_ADMINHTML__EVENT_CONFIG_CACHE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---a7d_ADMINHTML__EVENT_CONFIG_CACHE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---a7d_CRON_GROUPS_CONFIG_CACHE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---a7d_CRON_GROUPS_CONFIG_CACHE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---a7d_SYSTEM_WEBSITES_BASE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---a7d_SYSTEM_WEBSITES_BASE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---a7d_BLOCK_5A835314B09D7341F1E0C4271DF1752F1FE2D875" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---a7d_BLOCK_5A835314B09D7341F1E0C4271DF1752F1FE2D875" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---a7d_INITIAL_CONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---a7d_INITIAL_CONFIG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---a7d_LAYOUT_ADMINHTML_STORE1_26F1B068EC7CCF4878F9284DD1137AFD1_PAGE_LAYOUT_MERGED" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---a7d_LAYOUT_ADMINHTML_STORE1_26F1B068EC7CCF4878F9284DD1137AFD1_PAGE_LAYOUT_MERGED" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---a7d_LAYOUT_ADMINHTML_STORE1_29AA5D7F9F62F629B35A6F5F282D889DB_PAGE_LAYOUT_MERGED" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---a7d_LAYOUT_ADMINHTML_STORE1_29AA5D7F9F62F629B35A6F5F282D889DB_PAGE_LAYOUT_MERGED" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---a7d_SYSTEM_DEFAULT" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---a7d_SYSTEM_DEFAULT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_ADMINHTML__DICONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_ADMINHTML__DICONFIG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_APP_ACTION_LIST" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_APP_ACTION_LIST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_AUTHORIZATION_ROLE_CACHED_DATA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_AUTHORIZATION_ROLE_CACHED_DATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_AUTHORIZATION_RULE_CACHED_DATA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_AUTHORIZATION_RULE_CACHED_DATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_CONFIGURATION_FILES_ACCESS_LEVEL_VERIFICATION" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_CONFIGURATION_FILES_ACCESS_LEVEL_VERIFICATION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_MAGE_VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_MAGE_VERSION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_UI_COMPONENT_CONFIGURATION_DATA_BLOCK_CONTENT_FORM" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--4/mage---a7d_UI_COMPONENT_CONFIGURATION_DATA_BLOCK_CONTENT_FORM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---a7d_DB_IS_UP_TO_DATE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---a7d_DB_IS_UP_TO_DATE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---a7d_GLOBAL_PRIMARY_PLUGIN_LIST" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---a7d_GLOBAL_PRIMARY_PLUGIN_LIST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---a7d_RESOLVED_STORES_D1BEFA03C79CA0B84ECC488DEA96BC68" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---a7d_RESOLVED_STORES_D1BEFA03C79CA0B84ECC488DEA96BC68" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---a7d_SYSTEM_SCOPES" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---a7d_SYSTEM_SCOPES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---a7d_SYSTEM_STORES_1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---a7d_SYSTEM_STORES_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---a7d_SYSTEM_WEBSITES_0" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--6/mage---a7d_SYSTEM_WEBSITES_0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---a7d_SYSTEM_WEBSITES_1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--6/mage---a7d_SYSTEM_WEBSITES_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--6/mage---a7d_UI_COMPONENT_CONFIGURATION_DEFINITION_DATA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--6/mage---a7d_UI_COMPONENT_CONFIGURATION_DEFINITION_DATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---a7d_CORE_CACHE_INVALIDATE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---a7d_CORE_CACHE_INVALIDATE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---a7d_EAV_ENTITY_TYPES" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---a7d_EAV_ENTITY_TYPES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---a7d_GLOBAL__DICONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---a7d_GLOBAL__DICONFIG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---a7d_UI_COMPONENT_TEMPLATES" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---a7d_UI_COMPONENT_TEMPLATES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---a7d_ADMINHTML__CSP_WHITELIST_CONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---a7d_ADMINHTML__CSP_WHITELIST_CONFIG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---a7d_DB_PDO_MYSQL_DDL_THEME_1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---a7d_DB_PDO_MYSQL_DDL_THEME_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---a7d_GLOBAL__EVENT_CONFIG_CACHE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---a7d_GLOBAL__EVENT_CONFIG_CACHE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---a7d_LAYOUT_ADMINHTML_STORE1_2" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---a7d_LAYOUT_ADMINHTML_STORE1_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---a7d_SYSTEM_STORES_ADMIN" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---a7d_SYSTEM_STORES_ADMIN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---a7d_ADMIN_NOTIFICATIONS_LASTCHECK" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---a7d_ADMIN_NOTIFICATIONS_LASTCHECK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---a7d_STRUCTURE_LAYOUT_ADMINHTML_STORE1_29AA5D7F9F62F629B35A6F5F282D889DB" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---a7d_STRUCTURE_LAYOUT_ADMINHTML_STORE1_29AA5D7F9F62F629B35A6F5F282D889DB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---a7d_APP_108B5EBA5ECACA9F6E9F88D4CD04D6E0" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---a7d_APP_108B5EBA5ECACA9F6E9F88D4CD04D6E0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---a7d_DICONFIG413F0081EBC7D5BB67FF1241B4F9AEB5" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---a7d_DICONFIG413F0081EBC7D5BB67FF1241B4F9AEB5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---a7d_INDEXER_CONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---a7d_INDEXER_CONFIG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---a7d_PROVIDER_ACL_RESOURCES_CACHE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---a7d_PROVIDER_ACL_RESOURCES_CACHE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---a7d_STRUCTURE_LAYOUT_ADMINHTML_STORE1_26F1B068EC7CCF4878F9284DD1137AFD1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---a7d_STRUCTURE_LAYOUT_ADMINHTML_STORE1_26F1B068EC7CCF4878F9284DD1137AFD1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---a7d_SYSTEM_STORES_DEFAULT" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---a7d_SYSTEM_STORES_DEFAULT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---a7d_SYSTEM_WEBSITES_ADMIN" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---a7d_SYSTEM_WEBSITES_ADMIN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--b/mage---a7d_UI_COMPONENT_CONFIGURATION_DATA_NOTIFICATION_AREA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--b/mage---a7d_UI_COMPONENT_CONFIGURATION_DATA_NOTIFICATION_AREA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---a7d_STRUCTURE_LAYOUT_ADMINHTML_STORE1_29FDF23B55D7EEEF84157B5E53C84C3EA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---a7d_STRUCTURE_LAYOUT_ADMINHTML_STORE1_29FDF23B55D7EEEF84157B5E53C84C3EA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---a7d_SYSTEM" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---a7d_SYSTEM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---a7d_DICONFIGC341E95CBD50B91881C6B0BF314F72DE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---a7d_DICONFIGC341E95CBD50B91881C6B0BF314F72DE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--d/mage---a7d_UI_COMPONENT_CONFIGURATION_DATA_BLOCK_GRID_LISTING" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--d/mage---a7d_UI_COMPONENT_CONFIGURATION_DATA_BLOCK_GRID_LISTING" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---a7d_GLOBAL_PRIMARY_ADMINHTML_PLUGIN_LIST" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--e/mage---a7d_GLOBAL_PRIMARY_ADMINHTML_PLUGIN_LIST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---a7d_GLOBAL__CSP_WHITELIST_CONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--e/mage---a7d_GLOBAL__CSP_WHITELIST_CONFIG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---a7d_LAYOUT_ADMINHTML_STORE1_2D41D8CD98F00B204E9800998ECF8427E_PAGE_LAYOUT_MERGED" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--e/mage---a7d_LAYOUT_ADMINHTML_STORE1_2D41D8CD98F00B204E9800998ECF8427E_PAGE_LAYOUT_MERGED" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---a7d_TRANSLATE_EN_US_ADMINHTML_ADMIN_MAGENTO_BACKEND_MAGENTO_UI" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--e/mage---a7d_TRANSLATE_EN_US_ADMINHTML_ADMIN_MAGENTO_BACKEND_MAGENTO_UI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---a7d_ADMINHTML__RESOURCESCACHE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---a7d_ADMINHTML__RESOURCESCACHE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---a7d_ADMINHTML__ROUTESCONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---a7d_ADMINHTML__ROUTESCONFIG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---a7d_INTERCEPTION" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---a7d_INTERCEPTION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_ACL_CACHE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_ACL_CACHE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_ADMINHTML_AUTH_LOGIN" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_ADMINHTML_AUTH_LOGIN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_ADMINHTML_DASHBOARD_INDEX" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_ADMINHTML_DASHBOARD_INDEX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_ADMIN_1COLUMN" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_ADMIN_1COLUMN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_ADMIN_LOGIN" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_ADMIN_LOGIN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_BACKEND_MAINMENU" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_BACKEND_MAINMENU" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_BLOCK_HTML" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_BLOCK_HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_BLOCK_HTML_FORMACTION" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_BLOCK_HTML_FORMACTION" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_BLOCK_HTML_INDEX" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_BLOCK_HTML_INDEX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_CATALOG_PRODUCT_PRICES" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_CATALOG_PRODUCT_PRICES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_COLLECTION_DATA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_COLLECTION_DATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_CONFIG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_CONFIG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_CONFIG_SCOPES" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_CONFIG_SCOPES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_DB_DDL" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_DB_DDL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_DB_PDO_MYSQL_DDL" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_DB_PDO_MYSQL_DDL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_DEFAULT" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_DEFAULT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_EAV_ATTRIBUTE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_EAV_ATTRIBUTE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_LAYOUT_GENERAL_CACHE_TAG" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_LAYOUT_GENERAL_CACHE_TAG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_MAGE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_MAGE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_STORE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_STORE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_STORE_RELATIONS" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_STORE_RELATIONS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_TRANSLATE" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---a7d_TRANSLATE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/log/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/log/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/log/system.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/log/system.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/session/sess_4c0ccaf01c2884d0b0b7f884f5593716" beforeDir="false" afterPath="$PROJECT_DIR$/var/session/sess_4c0ccaf01c2884d0b0b7f884f5593716" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -597,12 +707,35 @@
       <workItem from="1604138072345" duration="1136000" />
       <workItem from="1604139229235" duration="29807000" />
       <workItem from="1604225224990" duration="7728000" />
-      <workItem from="1604236277165" duration="8214000" />
+      <workItem from="1604236277165" duration="14633000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="-1368" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603922522317">
@@ -625,10 +758,10 @@
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1233" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1603922262187" />
-    <state x="-1920" y="462" key="NewPhpClassDialog" timestamp="1604240199891">
+    <state x="-1920" y="462" key="NewPhpClassDialog" timestamp="1604252797743">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="-1920" y="462" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1604240199891" />
+    <state x="-1920" y="462" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1604252797743" />
     <state x="-1576" y="138" key="SettingsEditor" timestamp="1604177101088">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
@@ -637,5 +770,9 @@
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1520" y="80" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1603924993032" />
+    <state x="-1329" y="228" width="738" height="704" key="find.popup" timestamp="1604252817974">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1329" y="228" width="738" height="704" key="find.popup/0.0.1920.1040/-1920.0.1920.1160@-1920.0.1920.1160" timestamp="1604252817974" />
   </component>
 </project>

@@ -6,20 +6,22 @@ namespace Dev\Block\Controller\Adminhtml\Html;
 
 use Magento\Backend\App\Action;
 
-class FormAction extends Action
+class FormAction extends \Magento\Backend\App\Action
 {
+
+    protected $resultPageFactory;
+
+    public function __construct(
+        \Magento\Backend\App\Action\Context $context,
+        \Magento\Framework\View\Result\PageFactory $resultPageFactory)
+    {
+        $this->resultPageFactory = $resultPageFactory;
+        parent::__construct($context);
+    }
 
     public function execute()
     {
-        $this->_view->loadLayout();
-        $this->_view->renderLayout();
-
-        $contentData = $this->getRequest()->getParam('content');
-        if (is_array($contentData)) {
-            $content = $this->_objectManager->create('Dev\Block\Model\Content');
-            $content->setData($contentData)->save();
-            $resultRedirect = $this->resultRedirectFactory->create();
-            return $resultRedirect->setPath('*/*/index');
-        }
+        return $this->resultPageFactory->create();
     }
 }
+

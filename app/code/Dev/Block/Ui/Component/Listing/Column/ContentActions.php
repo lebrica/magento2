@@ -28,7 +28,7 @@ class ContentActions extends Column
             foreach ($dataSource['data']['items'] as &$item) {
                 $item[$this->getData('name')]['edit'] = [
                     'href' => $this->urlBuilder->getUrl(
-                        'content/html/edit',
+                        'block/html/edit',
                         ['id' => $item['entity_id']]
                     ),
                     'label' => __('Edit'),
@@ -36,7 +36,7 @@ class ContentActions extends Column
                 ];
                 $item[$this->getData('name')]['delete'] = [
                     'href' => $this->urlBuilder->getUrl(
-                        'content/html/delete',
+                        'block/html/delete',
                         ['id' => $item['entity_id']]
                     ),
                     'label' => __('Delete'),
