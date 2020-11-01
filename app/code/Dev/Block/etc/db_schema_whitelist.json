@@ -1,0 +1,14 @@
+{
+    "my_content": {
+        "column": {
+            "entity_id": true,
+            "category_id": true,
+            "content": true,
+            "status": true,
+            "position": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

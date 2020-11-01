@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dev_Block" title="Content Block" module="Dev_Block" sortOrder="20" dependsOnModule="Dev_Block" resource="Dev_Block::content"/>
+        <add id="Dev_Block::index" title="Content Block" module="Dev_Block" action="block/html/index" parent="Dev_Block" sortOrder="20" dependsOnModule="Dev_Block" resource="Dev_Block::content"/>
+    </menu>
+</config>

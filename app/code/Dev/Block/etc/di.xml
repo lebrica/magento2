@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="ContentGridDataProvider" type="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider">
+        <arguments>
+            <argument name="collection" xsi:type="object" shared="false">Dev\Block\Model\ResourceModel\Content\Collection</argument>
+            <argument name="filterPool" xsi:type="object" shared="false">ContentGirdFilterPool</argument>
+        </arguments>
+    </virtualType>
+
+    <virtualType name="ContactsGirdFilterPool" type="Magento\Framework\View\Element\UiComponent\DataProvider\FilterPool">
+        <arguments>
+            <argument name="appliers" xsi:type="array">
+                <item name="regular" xsi:type="object">Magento\Framework\View\Element\UiComponent\DataProvider\RegularFilter</item>
+                <item name="fulltext" xsi:type="object">Magento\Framework\View\Element\UiComponent\DataProvider\FulltextFilter</item>
+            </argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="block_grid_listing_data_source" xsi:type="string">Dev\Block\Model\ResourceModel\Content\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+
+    <virtualType name="Dev\Block\Model\ResourceModel\Content\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">my_content</argument>
+            <argument name="resourceModel" xsi:type="string">Dev\Block\Model\ResourceModel\Content</argument>
+        </arguments>
+    </virtualType>
+</config>
