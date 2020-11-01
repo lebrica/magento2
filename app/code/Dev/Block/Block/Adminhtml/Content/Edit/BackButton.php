@@ -3,7 +3,6 @@
 
 namespace Dev\Block\Block\Adminhtml\Content\Edit;
 
-
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 
 /**

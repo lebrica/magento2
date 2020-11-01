@@ -4,7 +4,7 @@
 namespace Dev\Block\Controller\Adminhtml\Html;
 
 
-use Dev\Block\Model\contentFactory;
+use Dev\Block\Model\ContentFactory;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\View\Result\PageFactory;
@@ -18,7 +18,7 @@ class Save extends Action
     public function __construct(
         Context $context,
         PageFactory $resultPageFactory,
-        contentFactory $contentFactory
+        ContentFactory $contentFactory
     )
     {
         $this->resultPageFactory = $resultPageFactory;
@@ -28,8 +28,9 @@ class Save extends Action
 
     public function execute()
     {
+        var_dump(12);die();
         $resultRedirect = $this->resultRedirectFactory->create();
-        $data = $this->getRequest()->getPostValue();
+        $data = $this->getRequest()->getParam('id');
 
         if($data)
         {

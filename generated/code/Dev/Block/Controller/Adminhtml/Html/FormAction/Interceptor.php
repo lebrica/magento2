@@ -8,10 +8,10 @@ class Interceptor extends \Dev\Block\Controller\Adminhtml\Html\FormAction implem
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Magento\Backend\App\Action\Context $context)
+    public function __construct(\Magento\Backend\App\Action\Context $context, \Magento\Framework\View\Result\PageFactory $pageFactory)
     {
         $this->___init();
-        parent::__construct($context);
+        parent::__construct($context, $pageFactory);
     }
 
     /**

@@ -6,22 +6,21 @@ namespace Dev\Block\Controller\Adminhtml\Html;
 
 use Magento\Backend\App\Action;
 
-class FormAction extends \Magento\Backend\App\Action
+class FormAction extends Action
 {
-
-    protected $resultPageFactory;
+    protected $pageFactory;
 
     public function __construct(
         \Magento\Backend\App\Action\Context $context,
-        \Magento\Framework\View\Result\PageFactory $resultPageFactory)
+        \Magento\Framework\View\Result\PageFactory $pageFactory)
     {
-        $this->resultPageFactory = $resultPageFactory;
-        parent::__construct($context);
+        $this->pageFactory = $pageFactory;
+        return parent::__construct($context);
     }
 
     public function execute()
     {
-        return $this->resultPageFactory->create();
+        return $this->pageFactory->create();
     }
 }
 

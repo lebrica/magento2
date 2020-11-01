@@ -3,7 +3,6 @@
 
 namespace Dev\Block\Model\ResourceModel\Content;
 
-
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 class Collection extends AbstractCollection
