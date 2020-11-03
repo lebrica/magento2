@@ -9,7 +9,7 @@ class Content extends AbstractModel
 {
     protected function _construct()
     {
-        $this->_init(\Dev\Block\Model\ResourceModel\Content::class);
+        $this->_init(ResourceModel\Content::class);
     }
 
 }

@@ -13,6 +13,7 @@
         <item name="buttons" xsi:type="array">
             <item name="back" xsi:type="string">Dev\Block\Block\Adminhtml\Content\Edit\BackButton</item>
             <item name="save" xsi:type="string">Dev\Block\Block\Adminhtml\Content\Edit\SaveButton</item>
+            <item name="delete" xsi:type="string">Dev\Block\Block\Adminhtml\Content\Edit\DeleteButton</item>
         </item>
     </argument>
 
@@ -22,6 +23,11 @@
             <argument name="name" xsi:type="string">content_form_data_source</argument>
             <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
             <argument name="requestFieldName" xsi:type="string">id</argument>
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="submit_url" xsi:type="url" path="block/html/save" />
+                </item>
+            </argument>
         </argument>
         <argument name="data" xsi:type="array">
             <item name="js_config" xsi:type="array">

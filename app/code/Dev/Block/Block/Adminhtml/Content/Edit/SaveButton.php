@@ -13,16 +13,20 @@ class SaveButton extends GenericButton implements ButtonProviderInterface
             'label' => __('Save Contact'),
             'class' => 'save primary',
             'data_attribute' => [
-                'mage-init' => ['button' => ['event' => 'save']],
-                'form-role' => 'save',
+                'mage-init' =>
+                    ['button' => ['event' => 'save'],
+                    ]
             ],
-            //'on_click' => sprintf("location.href= '%s';", $this->getSaveUrl()),
+            'on_click' => 'deleteConfirm(\''
+                . __('Are you sure you want to delete this contact ?')
+                . '\', \'' . $this->getSaveUrl() . '\')',
+          // 'on_click' => sprintf("location.href= '%s';", $this->getSaveUrl()),
             'sort_order' => 90
         ];
     }
 
     public function getSaveUrl()
     {
-        return $this->getUrl('*/*/save', []) ;
+        return $this->getUrl('*/*/save') ;
     }
 }

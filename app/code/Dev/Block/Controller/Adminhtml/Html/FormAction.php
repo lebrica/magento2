@@ -23,4 +23,3 @@ class FormAction extends Action
         return $this->pageFactory->create();
     }
 }
-

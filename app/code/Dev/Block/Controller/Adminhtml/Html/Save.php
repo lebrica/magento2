@@ -28,21 +28,23 @@ class Save extends Action
 
     public function execute()
     {
-        var_dump(12);die();
         $resultRedirect = $this->resultRedirectFactory->create();
-        $data = $this->getRequest()->getParam('id');
+        $data = $this->getRequest()->getParam('content');
 
         if($data)
         {
+           // var_dump($data);die();
             try{
-                $id = $data['entity_id'];
+                $id = isset($data['entity_id']) ? $data['entity_id'] : null;
 
-                $content = $this->contentFactory->create()->load($id);
+
+                $contact = $this->contentFactory->create()->load($id);
 
                 $data = array_filter($data, function($value) {return $value !== ''; });
 
-                $content->setData($data);
-                $content->save();
+                $contact->setData($data);
+                $contact->save();
+
                 $this->messageManager->addSuccess(__('Successfully saved the item.'));
                 $this->_objectManager->get('Magento\Backend\Model\Session')->setFormData(false);
                 return $resultRedirect->setPath('*/*/');
@@ -51,7 +53,7 @@ class Save extends Action
             {
                 $this->messageManager->addError($e->getMessage());
                 $this->_objectManager->get('Magento\Backend\Model\Session')->setFormData($data);
-                return $resultRedirect->setPath('*/*/edit', ['id' => $content->getId()]);
+                return $resultRedirect->setPath('*/*/edit', ['id' => $contact->getId()]);
             }
         }
 
